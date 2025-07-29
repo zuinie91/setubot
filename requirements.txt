@@ -1,0 +1,12 @@
+# requirements.txt
+
+# 核心依赖
+pyTelegramBotAPI==4.16.1
+requests==2.32.2
+
+# 其他依赖（标准库，但列出来更清晰）
+# datetime, os, random, time, json, threading 是 Python 标准库
+
+# 对于部署有用的附加包
+python-dotenv==1.0.1  # 用于本地开发时加载.env文件
+gunicorn==21.2.0      # 如果使用Webhook部署需要
